@@ -1,0 +1,152 @@
+@media only screen and (max-width: 75em) {
+
+    .container {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 68.75em) {
+    html {
+        font-size: 50%;
+    }
+    .container {
+        max-width: 100%;
+
+    }
+    
+}
+
+@media only screen and (max-width: 59.5em) {
+
+    html {
+        font-size: 48%;
+    }
+    .recommend__photo {
+        height: 3rem;
+        width: 3rem;
+    }
+}
+
+@media only screen and (max-width: 50.6em) {
+    .content {
+        flex-direction: column;
+    }
+    .side__bar {
+        display: flex;
+        margin: 0;
+    }
+    .side__bar-list {
+        flex: 1;
+    }
+    .side__bar-list:not(:last-of-type){
+        margin: 0;
+    }
+    .copyright {
+        display: none;
+    }
+    .side__bar-link:link,
+    .side__bar-link:visited {
+        justify-content: center;
+        padding: 2rem;
+    }
+    .details {
+        padding: 2rem;
+    }
+    .details__description {
+        margin-right: 2rem;
+        padding: 2rem;
+    }
+    .review {
+        margin-bottom: 2rem;
+        padding: 2rem;
+    } 
+    .cta {
+        padding: 2rem 0;
+    }
+    .btn__visible  {
+        padding: 2rem 5rem;
+    }
+    .recommend__friends {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 37em) {
+    .details {
+        flex-direction: column;
+    }
+    .details__description {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .side__bar-link:link,
+    .side__bar-link:visited {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .side__bar-icon {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-bottom: .5rem;
+
+    }
+    .overview__heading {
+        font-size: 1.5rem;
+        padding: 1.25rem 2rem;
+    }
+    .overview__icon-star,
+    .overview__icon-location {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .overview__rating {
+        padding: .8rem;
+    }
+    .overview__rating-average {
+        font-size: 2rem;
+    }
+    .btn__inline {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media only screen and (max-width: 31em) {
+
+    .header {
+        flex-wrap: wrap;
+    }
+    .search {
+        order: 1;
+    }
+    .cta__book-now {
+        font-size: 2rem;
+    }
+    .btn__visible {
+        display: inline-block;
+        font-size: 1.8rem;
+        padding: 1.3rem 2rem ;
+
+    }
+    .btn__invisible {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 20em) {
+    .side__bar-link:link,
+    .side__bar-link:visited {
+        font-size: 1rem;
+    }
+    .btn__inline {
+        font-size: 1rem;
+    }
+    .cta__book-now {
+        font-size: .8rem;
+    }
+    .overview__rating-average {
+
+    }
+    .overview__rating-counts {
+        font-size: .5rem;
+    }
+}
